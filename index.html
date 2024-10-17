@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Em bé :33</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ấn vào đi em bé chúi :33</h1>
+        <button id="revealButton">Ấn Đây nè :33</button>
+        <div id="heartContainer" class="hidden">
+            <div class="heart"></div>
+            <p>Yêu Bé Heooo :33</p>
+        </div>
+    </div>
+</body>
+<script>
+    document.getElementById('revealButton').addEventListener('click',function() {
+        document.getElementById('heartContainer').classList.remove('hidden');
+
+    });
+</script>
+</html>
